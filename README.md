@@ -26,12 +26,13 @@ The system could match job seekers to potential jobs with matching scores which 
 JDK 1.8.0_141
 
 Backend : 
+
 Server : glassfish 4.0
+
 Database: MySQL 14.14
 
 IDE:  
-Netbean 5.2
-JSP 
+Netbeans 5.2
 
 
 ### Installing
