@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>536</x>
+      <y>312</y>
+      <w>136</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>Recruiter
+--
+recruiter_profile
+profile
+
+
+
+
+
+
+
+
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>96</x>
+      <y>312</y>
+      <w>128</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Job Seeker
+--
+skill set
+profile
+workException
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>296</x>
+      <y>312</y>
+      <w>144</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Administrator
+--
+
+
+
+
+
+
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>808</x>
+      <y>416</y>
+      <w>120</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>JobCategory
+--
+categoryName
+
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>272</x>
+      <y>536</y>
+      <w>128</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Profile
+--
+
+
+address
+phone
+email
+
+ 
+
+
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>808</x>
+      <y>200</y>
+      <w>120</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Job
+--
+job_id
+jobTitle
+jobType
+jobLocation
+Salary
+jobDesc
+jobSkill
+jobCategory
+isAdverised
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>832</x>
+      <y>320</y>
+      <w>76</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+
+m1=0..n
+m2=1..n
+
+has &gt;</panel_attributes>
+    <additional_attributes>40;24;40;96</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>304</x>
+      <y>160</y>
+      <w>136</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Account
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>152</x>
+      <y>248</y>
+      <w>440</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>24;64;24;24;424;24;424;64</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>416</x>
+      <y>312</y>
+      <w>136</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=0..*
+manage &gt;</panel_attributes>
+    <additional_attributes>24;40;120;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>336</x>
+      <y>208</y>
+      <w>56</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;- 
+is a </panel_attributes>
+    <additional_attributes>32;24;32;104</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>200</x>
+      <y>312</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=0..*
+&lt; manage</panel_attributes>
+    <additional_attributes>96;40;24;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>120</x>
+      <y>88</y>
+      <w>752</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=0..*
+search&gt;</panel_attributes>
+    <additional_attributes>24;224;24;40;736;40;736;112</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>88</x>
+      <y>48</y>
+      <w>816</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=0..*
+apply for&gt;</panel_attributes>
+    <additional_attributes>24;264;24;40;800;40;800;152</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>168</x>
+      <y>408</y>
+      <w>416</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=0..*
+&lt; match</panel_attributes>
+    <additional_attributes>24;24;24;96;400;96;400;32</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>648</x>
+      <y>280</y>
+      <w>176</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1..1
+m2=0..*
+has &gt;</panel_attributes>
+    <additional_attributes>24;40;160;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>648</x>
+      <y>384</y>
+      <w>176</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1..1
+m2=0..*
+has &gt;</panel_attributes>
+    <additional_attributes>24;40;160;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>120</x>
+      <y>408</y>
+      <w>168</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1..1
+m2=1..1
+
+has &gt;</panel_attributes>
+    <additional_attributes>40;24;40;152;152;152</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>376</x>
+      <y>416</y>
+      <w>292</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1..1
+m2=1..1
+
+has &gt;</panel_attributes>
+    <additional_attributes>256;24;256;144;24;144</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>200</x>
+      <y>368</y>
+      <w>352</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=0..*
+&lt;invite </panel_attributes>
+    <additional_attributes>24;40;336;40</additional_attributes>
+  </element>
+</diagram>
