@@ -1,0 +1,405 @@
+.body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:100%;
+  margin: 0 auto;
+  text-align:left;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header{
+    position: absolute;
+    height: 235px;
+    width: 100%;
+    margin: auto;
+}
+
+
+#navi_bar{
+  position: inherit;
+  border-width:0px;
+  left:0px;
+  top:0px;
+  width:100%;
+  height:35px;
+  background-color:rgba(25, 158, 216, 1);
+}
+
+.nav_link{
+    position: relative;
+    text-decoration-color: aliceblue;
+    text-align: right;
+    float: right;
+    font-family: 'AvenirNext-Regular', 'Avenir Next';
+    padding-left: 20px;
+    padding-right: 100px;
+    color:aliceblue;
+    padding-top:5px;
+}
+
+#link_myAccount{
+    text-decoration-line: none;
+    color: aliceblue;
+}
+
+#link_myAccount:hover{
+    color: bisque;
+}
+
+#link_myAccount:active{
+    color:#59538C;
+}
+
+#link_logout{
+    text-decoration-line: none;  
+}
+
+#link_logout:hover{
+    color:bisque;
+}
+
+#link_logout:active{
+    color:aquamarine;
+}
+
+#search_bar{
+    position: absolute;
+    top: 35px;
+    left:0px;
+    width:100%;
+    height: 100px;
+}
+
+
+#logo_img{
+    position: inherit;
+  left:20px;
+  top:20px;
+  width:242px;
+  height:129px;
+}
+
+.search_form{
+    position: inherit;
+    top:15px;
+    left:400px;
+    height: 150px;
+    width: 1000px;
+    padding: 0pt;
+    margin: 0pt;
+}
+
+
+.search_labels{
+  font-family:'AvenirNext-Regular', 'Avenir Next';
+  font-style:normal;
+  font-size:22px;
+}
+
+.search_label2{
+    font-family:'AvenirNext-Regular', 'Avenir Next';
+    font-style:normal;
+    font-size: 15px;
+    position: relative;
+}
+
+.seeker_input{
+    width:300px;
+    height:22px;
+    font-size:13px;
+    font-family:'AvenirNext-Regular', 'Avenir Next';
+    font-style:normal;
+    color:#000000;
+    text-decoration:none;
+    top:30px;
+    left:-70px;
+    position: relative;
+    padding-left:10px;
+}
+
+
+button {
+  position:relative;
+  top:30px;
+  width:140px;
+  height:35px;
+  background-color:rgba(25, 158, 216, 1);
+  border-radius:5px;
+  box-shadow:none;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:20px;
+  color:#FFFFFF;
+}
+
+.selections{
+    position: inherit;
+    width: 100px;
+    height: 20px;
+    font-family:'AvenirNext-Regular', 'Avenir Next';;
+    font-style:normal;   
+    text-align: center;
+    margin-left:10px;
+}
+
+.selection_list{
+    text-decoration: none;
+    list-style-type: none;
+    float:left;
+    position: relative;
+    padding-left: 20px;
+    left:-77px;
+}
+
+#cotent_bg{
+    position: absolute;
+    top:230px;
+    left: 250px;
+    width: 700px;
+    
+    background-color:rgba(25, 158, 216, 0.0980392156862745);
+}
+
+#search_result{
+    position: inherit;
+    width: auto;
+    padding-left: 5px;
+}
+
+#side_bar{
+    position: absolute;
+    top:230px;
+    left:22px;
+    width:200px;
+    padding-left: 5px;  
+    padding-right: 5px; 
+}
+
+ul{
+    list-style-type: none; 
+    padding: 0px;
+    margin: 0px;
+    position:inherit;
+}
+
+#myAccount{
+  font-family:'AppleGothic';
+  font-weight:400;
+  font-style:normal;
+  font-size:22px;
+  color:#199ED8;
+  text-align: left;
+  padding-left: 40px;    
+}
+
+.link_text{
+  font-family:'AvenirNext-Regular', 'Avenir Next';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#333333;
+  text-align:left;
+  padding-left: 40px;
+}
+
+#appliedJob{
+    text-decoration-line: none;
+        color: black;
+
+}
+#appliedJob:hover {
+    color:#4799C2;
+}
+#appliedJob:active {
+    color:#59538C;
+}
+
+li{
+  padding: 5px;
+  color: black;    
+}
+
+#showInvita{
+    text-decoration-line: none;
+    color: black;
+}
+#showInvita:hover {
+    color:#4799C2;
+}
+#showInvita:active {
+  
+color:#59538C;
+}
+
+#profile{
+    text-decoration-line: none;
+    color: black;
+}
+#profile:hover {
+    color:#4799C2;
+}
+#profile:active {
+    color:#59538C;
+}
+
+#buildResume{
+    text-decoration-line: none;
+    color: black;
+}
+#buildResume:hover {
+    color:#4799C2;
+}
+#buildResume:active {
+    color:#59538C;
+}
+
+
+.invitations{
+    position:inherit;
+    background-color:white;
+    width: 678px;
+    height:auto;
+    float: left;
+    padding: 2px;
+    margin: 10px; 
+}
+
+#inviTitle{
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.inviDetails{
+  font-family:'AvenirNext-Regular', 'Avenir Next';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  padding: 0px;
+  margin: 2px;
+  float:left;
+  width: 300px;
+}
+
+.inviList{
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+}
+
+#seeJobDetails{
+    text-decoration-line: none;
+    color: #4799C2; 
+}
+
+#seeJobDetails:hover{
+    color: #46B9B9; 
+}
+
+#seeJobDetails:active{
+    color: #59538C; 
+}
+
+
+#sideBarRight{
+    position: fixed;
+    top:190px;
+    left:950px;
+    height: auto;
+    margin: 5px;
+    width: 200px;
+    border: 0.5pt;
+    border-color: dimgrey;
+}
+
+
+
+#recruiterName{
+    height: 0px;
+}
+
+.inviDetails_label{
+  font-family:'AvenirNext-Regular', 'Avenir Next';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  margin: 2px;
+  padding-left: 20px;
+  height: 10px;
+  width: 200px;
+    position: relative;
+    top:10pt;
+}
+
+#thisJobTitle{
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-style:normal;
+  font-size: 30px;
+  padding-left:20px;
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
