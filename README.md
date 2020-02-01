@@ -1,4 +1,4 @@
-# Online Job Seeking System
+# Online Job Seeking System (OJSS)
 
 Online job seeking system for both recruiter and seekers. This project uses Java Web + JSP + MySQL as backend and HTML + JavaScript + CSS +jQuery for frontend, MVC model is introduced in the project and we strictly followed agile development.
 
@@ -18,7 +18,6 @@ A recruiter can see who applied for a particular job, and see the details of the
 ## Matching Management
 The system could match job seekers to potential jobs with matching scores which is generated Matching Algorithm, and send an invitation message for interview to a highly-ranked job seeker.
 
-![Screenshot](/src/assets/burger_app_1.png)
 
 ## Getting Started
 
@@ -61,9 +60,9 @@ Recruiter send invitation
 
 ## Authors
 
-* **Danyang Chen** - *Backend Developer & system architecture* - [SteveChanVII](https://github.com/stevechanvii/)
-* **Dawei Tang** - *Backend Developer*
-* **Liwen Liang** - *Frontend Developer*
+* **Danyang Chen** - *Backend Developer & System Architect* - [SteveChanVII](https://github.com/stevechanvii/)
+* **Dawei Tang** - *Backend Developer & System Architect*
+* **Liwen Liang** - *Frontend Developer & UI Designer*
 
 ## License
 
